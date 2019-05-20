@@ -180,6 +180,10 @@
                 $("#r").val($(this).attr("val"));
             }
         })
+        // 爱的人啊
+        $("#love").click(function (event) {
+            alert("woaini ")
+        })
         //点击“的”按钮进行计算， 这段代码里面用到了一个javascript的数组操作的一个方法，unshift用来向数组的头部添加新的数据
         $("#of").click(function (event) {
             var o = $("#c").val();
@@ -265,18 +269,21 @@
                 <div class="ui-block-b"><button data-theme="a" id="姐姐" val="姐姐">姐</button></div>
                 <div class="ui-block-c"><button data-theme="a" id="丈夫" val="丈夫">夫</button></div>
                 <div class="ui-block-d"><button data-theme="a" id="妻子" val="妻子">妻</button></div>
-                <div class="ui-block-a"><button data-theme="a" id="弟弟" val="弟弟">弟</button></div>
-                <div class="ui-block-b"><button data-theme="a" id="妹妹" val="妹妹">妹</button></div>
+
+
+                <div class="ui-block-a"><button data-theme="g" id="elder" disabled>长</button></div>
+                <div class="ui-block-b"><button data-theme="g" id="younger" disabled>轻</button></div>
+                <div class="ui-block-c"><button data-theme="a" id="弟弟" val="弟弟">弟</button></div>
+                <div class="ui-block-d"><button data-theme="a" id="妹妹" val="妹妹">妹</button></div>
                 <!-- <div class="ui-block-c"></div> -->
-                <div class="ui-block-c" style="width: 50%;"><button data-theme="f" id="love">张张与你</button></div>
-                <div class="ui-block-a" style="width: 50%;"><button data-theme="g" id="elder" disabled>长</button></div>
-                <div class="ui-block-b" style="width: 50%;"><button data-theme="g" id="younger" disabled>轻</button></div>
+                <!-- <div class="ui-block-c" style="width: 50%;"><button data-theme="f" id="love">张张与你</button></div> -->
                 <div class="ui-block-a"><button data-theme="a" id="儿子" val="儿子">儿</button></div>
                 <div class="ui-block-b"><button data-theme="a" id="女儿" val="女儿">女</button></div>
                 <div class="ui-block-c"><button data-theme="f" id="of">的</button></div>
                 <div class="ui-block-d"><button data-theme="d" id="count">＝</button></div>
             </div>
             <br>
+            <img src=“https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzU3MDg4OTU5MA==&mid=2247483716&idx=1&sn=00369c10f6bcd953f9ffb3dd949c8156&send_time=”/>
             <div class="ex">关注微信公众号：张张与你，让可爱伴你左右</div>
         </div>
     </div>
